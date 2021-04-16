@@ -4,15 +4,12 @@
 
 Administrateur
 --------------
-Adresse email : tom@gmail.com
-Mot de passe : Azerty123
+tom@gmail.com / Azerty123
 
 Moniteur
 --------
-Adresse email : thomas@gmail.com
-Mot de passe : Azerty123
+thomas@gmail.com / Azerty123
 
 Élève
 -----
-Adresse email : arthur@gmail.com
-Mot de passe : Azerty123
+arthur@gmail.com / Azerty123
