@@ -16,7 +16,3 @@ Moniteur
 -----
 <b>Adresse email</b> : arthur@gmail.com<br>
 <b>Mot de passe </b> : Azerty123
-
-# Droit d'auteur
-&copy; Copyright 2021 | By Tom BRUAIRE<br>
-Tout droits réservés
