@@ -4,12 +4,19 @@
 
 Administrateur
 --------------
-tom@gmail.com / Azerty123
+<b>Adresse email</b> : tom@gmail.com<br>
+<b>Mot de passe</b> : Azerty123
 
 Moniteur
 --------
-thomas@gmail.com / Azerty123
+<b>Adresse email</b> : thomas@gmail.com<br>
+<b>Mot de passe</b> : Azerty123
 
 Élève
 -----
-arthur@gmail.com / Azerty123
+<b>Adresse email</b> : arthur@gmail.com<br>
+<b>Mot de passe </b> : Azerty123
+
+# Droit d'auteur
+&copy; Copyright 2021 | By Tom BRUAIRE
+Tout droits réservés
