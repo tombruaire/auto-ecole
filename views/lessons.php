@@ -13,7 +13,7 @@ foreach ($lessons as $lesson) {
     }";
 }
 
-$events = implode($events, ",");
+$events = implode(",", $events);
 
 ?>
 
@@ -41,23 +41,24 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <main class="content d-flex p-0">
-	<div class="container d-flex flex-column">
-		<div class="row h-100">
+    <div class="container d-flex flex-column">
+        <div class="row h-100">
             <div class="mt-4">
                 <?= Alerts::getFlash(); ?>
             </div>
             <?php if (isset($_SESSION['id_u']) && $_SESSION['lvl'] == 2) { ?>
             <div class="row d-flex justify-content-center mb-3">
                 <div class="col-auto">
-                    <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#modal-lessons">
+                    <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal"
+                        data-bs-target="#modal-lessons">
                         Ajouter un cours
                     </button>
                 </div>
             </div>
             <?php } ?>
-			<div id="calendar"></div>
-		</div>
-	</div>
+            <div id="calendar"></div>
+        </div>
+    </div>
 </main>
 
 <div class="modal fade" id="modal-lessons" tabindex="-1" aria-hidden="true">
@@ -94,7 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </select>
                     </div>
                     <div class="d-flex justify-content-center mt-4">
-                        <button type="submit" name="add-lessons" class="btn btn-primary btn-lg">Ajouter le cours</button>
+                        <button type="submit" name="add-lessons" class="btn btn-primary btn-lg">Ajouter le
+                            cours</button>
                     </div>
                 </form>
             </div>
@@ -103,5 +105,11 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <script type="text/javascript">
+$(document).ready(function() {
 
+    $('#calendar').fullCalendar({
+        lang: 'es'
+    });
+
+});
 </script>
