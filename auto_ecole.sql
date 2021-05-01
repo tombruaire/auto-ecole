@@ -20,8 +20,6 @@ Insert into users values
 
 -- Admin
 (1, "BRUAIRE", "Tom", "0606060606", "5 rue de Levallois", "92300", "tom@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", 3),
-(2, "LABASTUGUE", "Lucas", "0707070707", "42, place de Ravioli", "92700", "lucas@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", 3),
-(3, "CARVALHO", "Ruben", "0808080808", "11, rue Joseph Vernet", "73700", "ruben@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", 3),
 
 -- Moniteurs
 (4, "LABERGE", "Audric", "0108227875", "51, rue Nationale", "75005", "audric@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", 2),
